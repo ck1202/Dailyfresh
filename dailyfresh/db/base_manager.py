@@ -1,6 +1,7 @@
 # coding=utf-8
 from django.db import models
 import copy
+
 # 定义一个模型管理器类的抽象基类
 
 class BaseModelManager(models.Manager):

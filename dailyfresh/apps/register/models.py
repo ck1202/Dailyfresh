@@ -1,8 +1,11 @@
 # coding=utf-8
 from django.db import models
 from db.base_model import BaseModel # 导入抽象模型类
+
 from db.base_manager import BaseModelManager # 导入抽象模型管理器类
 from utils.get_hash import get_hash
+
+
 # Create your models here.
 
 class PassportManager(BaseModelManager):
